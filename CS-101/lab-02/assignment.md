@@ -1,0 +1,20 @@
+# Part a
+Compile and run file Lab02a.java
+
+# Part b
+Compile and run file Lab02b.java
+
+# Part c
+Create a new project Lab02c and write a program that reads two int values from the user, computes their sum, difference, product, the result of dividing them, and the remainder after such division, then prints out the resulting values. Experiment a bit. Try changing the value of a constant. Try putting an int value into a double variable and vice versa. What happens if one or both of the values are zero or negative? What happens if the values are very large, close to their maximum possible values? What happens if you change the types of all the variables to double? Try computing the maximum and minimum of the two values using the Math.max & Math.min functions.
+
+# Part d
+Create a new project called Lab02d. Design and implement a program that computes the maximum number of flowers that can be planted in a triangular-shaped garden having sides of length a, b and c meters, assuming at most 17 flowers can be planted in each square meter. You can use Heron's formula to compute the area of the garden, but remember, the total number of flowers should be an integer! Tip: the Math class has a function Math.sqrt that you can use to compute the square root of a value.
+
+# Part e
+A company requires that all its employees have a webpage. To date, a secretary has been asked to create each such page by hand. As a new engineer in a company's IT department you realise that the job can easily be done much cheaper, quicker and with less errors, using a computer program. Your boss thinks this is a great idea and asks you to immediately start work to design and implement such a program. The art department comes up with a stunning webpage layout. You decide that the secretary should be able to run the program, input the new employee's name, their age, salary and a paragraph of comments about them, and have it automatically create and save the necessary html code in a file. This file can then be viewed using a standard web browser such as Internet Explorer, Chrome or Firefox.
+
+The html code corresponding to the art department's sample design is shown next to it. Notice that it is just special html tags, such as <p> & </p>, with the employee's details between them. You should define named constants for each of these tags (so that they can be reused and changed easily.) Initially, design your program so that it gets all the necessary information and then displays the corresponding html on the system console.  Base your implementation on the "CS101 Console Application" project template, using System.out.println for output and the Scanner class for user input.
+
+Once you have the output appearing correctly on the console all that remains is saving it into a file. There are a number of ways to do this, but for now try this simple trick: Open a command prompt and navigate to the folder containing your .class file. At the command prompt run your program by typing "java ProgramName > temp.htm".  This will have the effect of redirecting (sending) all the output that would normally go to the console, to the "temp.htm" file. Of course this includes the prompts when entering the information, so the user will have to guess what the program wants! Try it, examine the html output file, then go back to your program and comment out the prompts, recompile and run again from the command prompt. The resulting file should now be pure html and viewable in a web browser in all its glory!
+
+Hopefully the company is very pleased with the result, (but now they know how clever you are they are likely to want more, so make sure you keep your program safe since you will almost certainly be asked to extend it in the future!) In the meantime, try to practice as much as possible... your textbook has lots of questions for you to try.
