@@ -5,5 +5,7 @@ As of now, it is not complete. But I am working on it.
 
 # Courses So Far
 *The ones with tick marks are completed.*
+- [ ] CS 101
+- [ ] CS 102
 - [ ] CS 201
 - [ ] CS 202
