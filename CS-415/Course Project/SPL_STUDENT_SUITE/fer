@@ -1,0 +1,22 @@
+package Model;
+
+public class Character {
+	
+	public static int value=0;
+	public static int health=15;
+	public static String music="music.mp3";
+
+	
+	public static void increaseHealth(int value)
+	{
+		health+=value;
+		if(health>15)
+			health=15;
+	}
+	public static void increaseValue(int val)
+	{
+		value+=val;
+	
+	}
+
+}
