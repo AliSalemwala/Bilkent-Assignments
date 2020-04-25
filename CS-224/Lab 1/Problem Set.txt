@@ -1,0 +1,22 @@
+Create an array of maximum size 20 elements that:
+Asks the user first the number of elements and then enters the elements one by one.
+Then displays the array contents.
+Then reverses the array contents.
+Then displays the reversed array.
+
+---------------
+
+Get an input string and check if it is a palindrome. 
+
+---------------
+
+Implement the following expression without using div: x = (c-d)%2
+
+---------------
+
+Create an array of maximum size 100 elements. Ask the user the number of elements and enter them one by one.
+Try to do the above with an array with size determined at execution time.
+Let the user perform the following operations with a textual menu.
+Find the sum of all numbers in the array greater than an input number.
+Find the sum of even and odd numbers and display them.
+Display the number of occurences of array elements greater than an input number.

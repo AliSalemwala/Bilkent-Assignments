@@ -1,0 +1,24 @@
+# Ali Altaf Salemwala
+# Lab 2
+# Part 1 - 2
+
+10 01 00 20		again:	add ... # there is an instruction here and meaning is insignificant
+10 01 00 24			add ... # likewise for the other similar cases
+10 01 00 28			beq    $t0, $t1, next
+10 01 00 2C			bne  $t0, $t1, again
+10 01 00 30			add ...
+10 01 00 34	 		add ...
+10 01 00 3C 	next:	j	again
+10 01 00 38 		add ...
+
+
+xxxxxx xxxxx xxxxx xxxxxxxxxxxxxxxx
+
+.
+.
+000100 01000 01001 0000000000010000  --  1109 0010
+000101 01000 01001 1111111111111100  --  1509 FFFC
+.
+.
+.
+000010 00000000000100000000001000    --  0800 4008
