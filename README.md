@@ -3,9 +3,5 @@ This repository contains codes from all of the assignments I have completed over
 
 As of now, it is not complete. But I am working on it.
 
-# Courses So Far
-*The ones with tick marks are completed.*
-- [ ] CS 101
-- [ ] CS 102
-- [ ] CS 201
-- [ ] CS 202
+# Note
+I got an awesome job and realized this is unnecessary. I won't be investing more time into it, just adding the work I already have. Don't take what I've done as gospel. Hope it helps you, unnamed reader.
