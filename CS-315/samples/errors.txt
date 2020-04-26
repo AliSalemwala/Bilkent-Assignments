@@ -1,0 +1,109 @@
+// 1. passing STRINGs where we should pass INTs
+drawboard ("hello", "world"){}
+
+//output
+Wrong type passed... line: 1
+
+
+// 2. trying to draw outside the drawboard function
+drawboard (200, 100){}
+drawCircle(){
+	draw (Oval(), Location (0, 0), Size (50, 50), Color (BLUE);
+}
+
+//output
+Drawboard.
+syntax error... line: 2
+
+
+// 3. trying to add a BOOL and a STRING
+drawboard (200, 100){
+	a = true + "love";
+}
+
+//output
+Assignment.
+Wrong type passed... line: 3
+
+
+// 4. trying to extend only one shape
+drawboard (200, 100){}
+def wrongExtender(){
+	extend (Oval(), Location (0, 0), Size (5, 5), 0);
+}
+
+//output
+Oval.
+Location.
+Size.
+syntax error... line: 3
+help... line: 3
+Function Declaration.
+
+Drawboard.
+
+
+// 5. not including a semicolon after a complete statement
+drawboard (200, 100){
+	a = 5
+}
+
+//output
+Assignment.
+syntax error... line: 3
+
+
+// 6. including a semicolon after the drawboard function
+drawboard (200, 100){};
+
+//output
+Drawboard.
+Extra semicolon... line: 1
+
+
+
+// 7. trying to name a variable with a keyword (return is a keyword)
+drawboard (200, 100){
+	return = 69;
+}
+
+//output
+syntax error... line: 2
+help... line: 2
+Drawboard.
+
+
+// 8. not assigning a value to a variable
+drawboard (200, 100){
+	noVal;
+}
+
+//output
+syntax error... line: 2
+help... line: 2
+Drawboard.
+
+
+
+// 9. trying to name a type (there are no types, this is interpreted as two separate IDs)
+drawboard (200, 100){
+	bool truth = false;
+}
+
+//output
+syntax error... line: 2
+help... line: 2
+Drawboard.
+
+
+
+// 10. trying to define a function without the def keyword
+drawboard (200, 300){}
+wheresMyDef{
+	gone = true;
+	return gone;
+}
+
+//output
+Drawboard.
+syntax error... line: 2

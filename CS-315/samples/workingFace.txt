@@ -1,0 +1,23 @@
+drawboard (100, 500){
+	vPos = 0;
+	while ((vPos < 200)){
+		draw (featuresInFace(), Location (0, vPos), Size (100, 50));
+		pos += 50;
+	}
+}
+
+def eyes(){
+	extend (Oval(), Location (0, 0), Size (5, 5), 0, Oval(), Location (0, 20), Size (5, 5), 0);
+}
+
+def noseWithEyes(){
+	extend (eyes(), Location (0, 0), Size (10, 10), 0, Triangle(60, 60, 60), Location (5, 15), Size (7, 7), 0);
+}
+
+def mouthWithNoseEyes(){
+	extend (noseWithEyes(), Location (0, 0), Size (10, 10), 0, Line(false, E), Location (0, 20), Size(10, 2), 0);
+}
+
+def featuresInFace(){
+	extend (Oval(), Location (0, 0), Size (50, 50), 0, mouthWithNoseEyes(), Location (5, 10), Size (40, 40), 0);
+}

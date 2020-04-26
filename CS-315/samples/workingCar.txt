@@ -1,0 +1,28 @@
+drawboard (200, 100){
+	for (hPos = 0; (hPos <= 1000); hPos += 100){
+		makeAntenna = ((hPos % 500) == 0);
+		if (makeAntenna){
+			draw (carWithAntenna(makeAntenna), Location (hPos, 0), Size (100, 100));
+		}
+	}
+}
+
+def wheel(){
+	extend (Oval(), Location (0, 0), Size (5, 5), 0, Oval(), Location (1, 1), Size (2, 2), 0);
+}
+
+def twoWheels(){
+	extend (wheel(), Location (0, 0), Size (5, 5), 0, wheel(), Location (5, 0), Size (5, 5), 0);
+}
+
+def bodyWithWheels(roundedBod){
+	extend (Rectangle (roundedBod), Location (0, 0), Size (40, 25), 0, twoWheels(), Location (10, 20), Size (20, 10), 0);
+}
+
+def bodyWithTop (roundedBod){
+	extend (Rectangle(roundedBod), Location (10, 0), Size (35, 20), 0, bodyWithWheels(roundedBod), Location (0, 20), Size (55, 20), 0);
+}
+
+def carWithAntenna(roundedBod){
+	extend (bodyWithTop(roundedBod), Location (0, 0), Size (50, 50), 0, Line (false, N), Location (5, 5), Size (0, 10), 0);
+}

@@ -1,0 +1,15 @@
+drawboard (200, 100){
+	draw (house (), 5, Color (234, 43, 100));
+}
+
+def windows (roundedWind){
+	extend (Rectangle(roundedWind), Location (0, 0), Size (5, 5), 0, Rectangle(roundedWind), Location (5, 0), Size (5, 5), 0);
+}
+
+def windowsWithDoor (roundedWind){ // since we do not want rounded doors
+	extend (windows(), Location (0, 0), Size (10, 10), 0, Rectangle(false), Location (15, 20), Size(10, 15), 0);
+}
+
+def house (roundedWind){ // since the house edges cannot be rounded
+	extend (Rectangle(false), Location(0, 0), Size (50, 50), 0, windowsWithDoor(roundedWind), Location (10, 10), Size (30, 40), 0);
+}
