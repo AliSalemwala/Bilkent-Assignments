@@ -1,0 +1,66 @@
+/Users/borabarduk/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEditor.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/nunit.framework.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Mono.Cecil.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Unity.DataContract.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/borabarduk/Emoji/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/borabarduk/Emoji/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEditor.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/nunit.framework.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Mono.Cecil.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Unity.DataContract.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/borabarduk/Dropbox/Bilkent/Spring 2017/CS 319/EmojiStrike/Emoji/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Desktop/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/borabarduk/Desktop/Emoji/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEditor.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/nunit.framework.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Mono.Cecil.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Unity.DataContract.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/borabarduk/Desktop/Emoji/Temp/bin/Debug/Mono.Cecil.Mdb.dll

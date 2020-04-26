@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5598A6CD-9702-EEAB-9C27-83E99B9741CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Data.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dBackground.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dBullet.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dCameraShake.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToExplode.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToSpawn.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dClickToStamp.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dColliderlessImpact.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dCompoundPart.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToShoot.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToSlice.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dDragToThrow.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dExplosion.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dFlipper.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dFollow.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dGui.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dGun.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dHealDamage.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dMovingTarget.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerCamera.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerCar.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dPlayerSpaceship.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dRandomizeSound.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dRepeatStamp.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dShake.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dSpawner.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dTile.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dWaypoints.cs" />
+     <Compile Include="Assets\Destructible 2D\Examples\Scripts\D2dWheel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dAutoCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCalculateMass.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dColliderBuilder.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dCollisionHandler.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dDestroyer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dDestructible.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeColliderCell.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEditor.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dEvents.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFixture.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFixtureGroup.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfill.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfillIsland.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFloodfillPixel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dFracturer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHelper.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHelper_Editor.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dHit.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dLinkedList.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonCollider.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonColliderCell.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPool.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dPopupAttribute.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dQuad.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dQuadFracturer.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRect.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRequirements.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dRetainVelocity.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSnapshot.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSorter.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSplitGroup.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dSplitPixel.cs" />
+     <Compile Include="Assets\Destructible 2D\Scripts\D2dVector2.cs" />
+     <Compile Include="Assets\EmojiChanger.cs" />
+     <Compile Include="Assets\GoToHome.cs" />
+     <Compile Include="Assets\InputSave.cs" />
+     <Compile Include="Assets\KeyListener.cs" />
+     <Compile Include="Assets\KeyNavHome.cs" />
+     <Compile Include="Assets\KeyPressMap.cs" />
+     <Compile Include="Assets\MoveToPlay.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\NextMap.cs" />
+     <Compile Include="Assets\Scripts\Bar.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
+     <Compile Include="Assets\Scripts\Damage.cs" />
+     <Compile Include="Assets\Scripts\Damager.cs" />
+     <Compile Include="Assets\Scripts\Disabling.cs" />
+     <Compile Include="Assets\Scripts\Disabling1.cs" />
+     <Compile Include="Assets\Scripts\Nametag2.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\camerasc.cs" />
+     <Compile Include="Assets\Scripts\destroy.cs" />
+     <Compile Include="Assets\Scripts\destroyer1.cs" />
+     <Compile Include="Assets\Scripts\destroyer2.cs" />
+     <Compile Include="Assets\Scripts\indicator.cs" />
+     <Compile Include="Assets\Scripts\manager.cs" />
+     <Compile Include="Assets\Scripts\mover.cs" />
+     <Compile Include="Assets\Scripts\mover2.cs" />
+     <Compile Include="Assets\Scripts\namemaker.cs" />
+     <Compile Include="Assets\Scripts\nametag.cs" />
+     <Compile Include="Assets\Scripts\package.cs" />
+     <Compile Include="Assets\Scripts\remaining.cs" />
+     <Compile Include="Assets\Scripts\scener.cs" />
+     <Compile Include="Assets\Scripts\script1.cs" />
+     <Compile Include="Assets\Scripts\shootmechanics.cs" />
+     <Compile Include="Assets\Scripts\writer.cs" />
+     <Compile Include="Assets\Scroll.cs" />
+     <Compile Include="Assets\SwitchEmoji.cs" />
+     <Compile Include="Assets\TextureChanger.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Unity sample UI\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\chgC.cs" />
+     <Compile Include="Assets\clk.cs" />
+     <Compile Include="Assets\emojip1.cs" />
+     <Compile Include="Assets\emojip2.cs" />
+     <Compile Include="Assets\kl.cs" />
+     <Compile Include="Assets\p1EC.cs" />
+     <None Include="Assets\Destructible 2D\Shaders\Diffuse.shader" />
+     <None Include="Assets\Unity sample UI\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Destructible 2D\Shaders\Outline.shader" />
+     <None Include="Assets\Destructible 2D\Shaders\Default.shader" />
+     <None Include="Assets\Unity sample UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\scroll.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Destructible 2D\Shaders\Keep Alpha.shader" />
+     <None Include="Assets\Unity sample UI\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7AA0D4DB-CBAE-05DF-98BF-575A3D808DAC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

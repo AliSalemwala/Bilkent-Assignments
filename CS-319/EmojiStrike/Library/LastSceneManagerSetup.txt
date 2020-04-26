@@ -1,0 +1,22 @@
+sceneSetups:
+- path: Assets/Scenes/Switcher.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/emoji1.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/emoji2.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/HomePage.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/MapSelect.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Player Setup.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Tutorial.unity
+  isLoaded: 0
+  isActive: 0
